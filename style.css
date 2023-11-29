@@ -121,3 +121,23 @@ html{
         display: flex;
         justify-content: space-between;
     }
+
+
+    /*sobre nós*/
+.sobre-nos{
+    background-color:#1f1e1f;
+    width: 100%;
+    padding-bottom:5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre-nos img{
+   width: 400px;
+   height: 300px;
+   margin-top: 10rem;
+   margin-left: 10rem; 
+   border: 3px solid rgb(155,155,155); 
+   float: right;
+}
