@@ -138,6 +138,54 @@ html{
    height: 300px;
    margin-top: 10rem;
    margin-left: 10rem; 
-   border: 3px solid rgb(155,155,155); 
+   border: 3px solid rgb(255, 255, 255); 
    float: right;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.contentsobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contentsobre h2 {
+    font-size: 6rem;
+    margin-bottom: 1.4rem;
+}
+.contentsobre p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+/*footer*/
+ footer{
+     height: 25px;
+     background-color: black;
+     color: white;
+     font-size: 1.4rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ /*responsivo*/
+  @media (max-width: 1200px){
+  .main {
+    display: block;
+  }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12%;
+        padding-left: 0%;
+    }
+    .sobre-nos img {
+     width: 600px;
+     margin-left: -2px;
+    }
 }
